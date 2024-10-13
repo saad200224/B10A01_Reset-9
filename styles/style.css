@@ -58,3 +58,42 @@ nav button {
   font-size: 20px;
   font-weight: 600;
 }
+
+.hero-section {
+  max-width: 1440px;
+  margin: 0 auto;
+  margin-bottom: 74px;
+}
+
+.hero-section img {
+  width: 100%;
+}
+
+.dev-container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 80px 97px;
+  border-radius: 16px;
+  background: rgba(13, 19, 33, 0.02);
+}
+
+.dev-container h2,
+p {
+  text-align: center;
+}
+
+.dev-section {
+  border: 1px solid red;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 48px;
+}
+
+.dev-container > h2 {
+  margin-bottom: 24px;
+}
+
+.dev-container > p {
+  margin-bottom: 48px;
+}
