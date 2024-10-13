@@ -7,8 +7,54 @@
   margin: 0;
   padding: 0;
   list-style: none;
+  font-family: "Azeret Mono", monospace;
+}
+
+/* shared styles */
+.primary-heading-text {
+  font-size: 32px;
+  font-weight: 800;
+}
+
+.primary-color {
+  color: #0d1321;
+}
+
+.secondary-color {
+  color: #0d1321;
+}
+
+.btn-primary {
+  font-size: 20px;
+  font-weight: 600;
+  color: rgb(13, 19, 33);
 }
 
 body {
-  font-family: "Azeret Mono", monospace;
+  background-color: #ffffff;
+}
+
+/* nav bar styles */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+nav h3 {
+  font-size: 28px;
+  font-weight: 800;
+  color: rgb(13, 19, 33);
+}
+
+nav button {
+  padding: 17px 24px;
+  cursor: pointer;
+  border: 1px solid rgb(13, 19, 33);
+  border-radius: 8px;
+  margin: 36px 0;
+  font-size: 20px;
+  font-weight: 600;
 }
