@@ -348,9 +348,15 @@ nav button {
   cursor: pointer;
 }
 
+/* support section container */
+
 .support-section-container {
   max-width: 1140px;
   margin: 0 auto;
+}
+
+.support-section-container img {
+  border-radius: 16px;
 }
 
 .support-section-container img {
@@ -378,17 +384,4 @@ footer {
   justify-content: center;
   align-items: center;
   gap: 24px;
-}
-
-.fa-facebook {
-  color: #0866ff;
-  font-size: 24px;
-}
-.fa-github {
-  color: #1f2328;
-  font-size: 24px;
-}
-.fa-linkedin {
-  color: #0a66c2;
-  font-size: 24px;
 }
