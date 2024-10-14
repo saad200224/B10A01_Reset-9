@@ -107,6 +107,11 @@ nav button {
   width: 25%;
 }
 
+.hero-overlay-content a {
+  text-decoration: none;
+  color: white;
+}
+
 .contact-btn {
   color: #ffffff;
   font-size: 20px;
@@ -235,7 +240,7 @@ nav button {
   cursor: pointer;
 }
 
-.html > a {
+.html a {
   font-size: 16px;
   font-weight: 700;
   color: black;
@@ -274,7 +279,7 @@ nav button {
   color: black;
 }
 
-.css > a {
+.css a {
   font-size: 16px;
   font-weight: 700;
   color: black;
@@ -313,7 +318,7 @@ nav button {
   color: black;
 }
 
-.javascripts > a {
+.javascripts a {
   font-size: 16px;
   font-weight: 700;
   color: black;
